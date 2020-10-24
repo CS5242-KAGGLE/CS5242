@@ -22,3 +22,7 @@ high training loss
 - freeze until layer 172
 
 `loss: 0.6429 - accuracy: 0.9142 - val_loss: 0.7063 - val_accuracy: 0.8362`
+
+## Attempt 4
+- change back to global average pooling (easier to train, less parameters)
+- shuffle training batch
