@@ -30,3 +30,12 @@ high training loss
 ## Attempt 5
 - decrease decay_steps from 10000 to 1000
 - now overfit `loss: 0.5694 - accuracy: 0.9903 - val_loss: 0.7080 - val_accuracy: 0.8491`
+
+## Attempt 6 (Getting there)
+- Trainable params: 65,731, dense layer 32 neurons
+- Lock back model completely
+- decrease decay_steps to 100
+
+## Attempt 7
+- Remove normalisation!! It normalise over the whole batch, which is bad
+- `loss: 0.5911 - accuracy: 0.9914 - val_loss: 0.6393 - val_accuracy: 0.9224`
