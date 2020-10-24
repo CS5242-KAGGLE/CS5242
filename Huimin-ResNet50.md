@@ -26,3 +26,7 @@ high training loss
 ## Attempt 4
 - change back to global average pooling (easier to train, less parameters)
 - shuffle training batch
+
+## Attempt 5
+- decrease decay_steps from 10000 to 1000
+- now overfit `loss: 0.5694 - accuracy: 0.9903 - val_loss: 0.7080 - val_accuracy: 0.8491`
