@@ -62,3 +62,6 @@ high training loss
 - fine_tune_at = 171
 - 3 dense layer: 128, 64, 32 with both l2 regularizer and dropout
 - `loss: 0.7589 - accuracy: 0.9356 - val_loss: 0.7349 - val_accuracy: 0.9437`
+
+## Attemp 12 (only l2 regulariztion)
+- `loss: 0.6323 - accuracy: 0.9987 - val_loss: 0.6587 - val_accuracy: 0.9697`
