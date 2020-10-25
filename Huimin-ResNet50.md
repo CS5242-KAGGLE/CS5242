@@ -50,3 +50,9 @@ high training loss
 - use workers=8 to speed up
 - use PiecewiseConstantDecay
 - implement historam equalisation
+- submission result 0.95890
+
+## Attempt 10
+- Use label smoothing for cross entropy loss
+- validation now higher than training
+- submission result 0.93835
