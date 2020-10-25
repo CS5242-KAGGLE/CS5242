@@ -39,3 +39,8 @@ high training loss
 ## Attempt 7
 - Remove normalisation!! It normalise over the whole batch, which is bad
 - `loss: 0.5911 - accuracy: 0.9914 - val_loss: 0.6393 - val_accuracy: 0.9224`
+
+
+## Attempt 8
+- switch to generator ImageDataGenerator
+- it seems bad, in performance. and with high bias
