@@ -56,3 +56,9 @@ high training loss
 - Use label smoothing for cross entropy loss
 - validation now higher than training
 - submission result 0.93835
+
+## Attempt 11 (with all regularization)
+- `PiecewiseConstantDecay( [800, 2000, 2400, 2800], [ 0.003, 0.001, 0.0003, 0.0001, 0.00001])`
+- fine_tune_at = 171
+- 3 dense layer: 128, 64, 32 with both l2 regularizer and dropout
+- `loss: 0.7589 - accuracy: 0.9356 - val_loss: 0.7349 - val_accuracy: 0.9437`
