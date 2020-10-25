@@ -63,5 +63,10 @@ high training loss
 - 3 dense layer: 128, 64, 32 with both l2 regularizer and dropout
 - `loss: 0.7589 - accuracy: 0.9356 - val_loss: 0.7349 - val_accuracy: 0.9437`
 
-## Attemp 12 (only l2 regulariztion)
+## Attempt 12 (only l2 regulariztion)
 - `loss: 0.6323 - accuracy: 0.9987 - val_loss: 0.6587 - val_accuracy: 0.9697`
+
+## Attempt 13 (no regularisation)
+- with a single 128 dense layer
+- `loss: 0.5632 - accuracy: 0.9984 - val_loss: 0.5959 - val_accuracy: 0.9567`
+- it overfits!
