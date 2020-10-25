@@ -44,3 +44,9 @@ high training loss
 ## Attempt 8
 - switch to generator ImageDataGenerator
 - it seems bad, in performance. and with high bias
+
+
+## Attempt 9 (Good Result)
+- use workers=8 to speed up
+- use PiecewiseConstantDecay
+- implement historam equalisation
