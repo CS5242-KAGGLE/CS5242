@@ -83,3 +83,10 @@ high training loss
 ## Attempt 16 
 - dense 16, with 0.1 label smoothing
 - `loss: 0.6115 - accuracy: 0.9808 - val_loss: 0.6106 - val_accuracy: 0.9610`
+
+
+
+# Resnet 101
+## Attempt 1
+- turn off all layers with pre-training
+- accuracy 0.92, no sign of overfitting
