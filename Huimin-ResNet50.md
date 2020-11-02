@@ -79,3 +79,7 @@ high training loss
 ## Attempt 15
 - dense 16
 - `loss: 0.5927 - accuracy: 0.9812 - val_loss: 0.6016 - val_accuracy: 0.9524`
+
+## Attempt 16 
+- dense 16, with 0.1 label smoothing
+- `loss: 0.6115 - accuracy: 0.9808 - val_loss: 0.6106 - val_accuracy: 0.9610`
