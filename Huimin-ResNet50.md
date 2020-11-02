@@ -90,3 +90,7 @@ high training loss
 ## Attempt 1
 - turn off all layers with pre-training
 - accuracy 0.92, no sign of overfitting
+
+## Attempt 2
+- with fine tuning from layer 335, without regularisation
+- `loss: 0.8153 - accuracy: 0.9801 - val_loss: 0.6137 - val_accuracy: 0.9610`
