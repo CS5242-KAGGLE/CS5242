@@ -70,3 +70,12 @@ high training loss
 - with a single 128 dense layer
 - `loss: 0.5632 - accuracy: 0.9984 - val_loss: 0.5959 - val_accuracy: 0.9567`
 - it overfits!
+
+## Attempt 14 
+- dense 32 with BN and dropout(0.5)
+- not much overfit
+- can probably further decrease to 16?
+
+## Attempt 15
+- dense 16
+- `loss: 0.5927 - accuracy: 0.9812 - val_loss: 0.6016 - val_accuracy: 0.9524`
