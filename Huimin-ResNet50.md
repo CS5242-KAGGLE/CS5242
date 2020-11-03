@@ -98,3 +98,11 @@ high training loss
 ## Attempt 3
 - start training at 335 conv5_block3_1
 - `loss: 1.5326 - accuracy: 0.9667 - val_loss: 1.3124 - val_accuracy: 0.9610`
+
+## Attempt 4
+- starting at 335
+- regularise pre-train 1e-4
+- dropout 0.3 after avg pool
+- no hidden dense layers, only output softmax layer, to reduce overfitting
+- fine tune from layer 313
+- accuracy 0.99, 0.97
