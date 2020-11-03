@@ -106,3 +106,8 @@ high training loss
 - no hidden dense layers, only output softmax layer, to reduce overfitting
 - fine tune from layer 313
 - accuracy 0.99, 0.97
+
+## Attempt 5
+- shirnk input size from 512 to 256
+- no gains
+- tune from 341
