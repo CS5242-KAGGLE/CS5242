@@ -83,3 +83,13 @@ high training loss
 ## Attempt 16 
 - dense 16, with 0.1 label smoothing
 - `loss: 0.6115 - accuracy: 0.9808 - val_loss: 0.6106 - val_accuracy: 0.9610`
+
+
+# Resnet with SVM
+
+https://www.kaggle.com/winnie19900705/feature-extraction-resnet50-svm
+https://stackoverflow.com/questions/53019301/add-svm-to-last-layer
+https://stackoverflow.com/questions/54414392/convert-sklearn-svm-svc-classifier-to-keras-implementation
+
+## Attempt 1
+- first try with SVM as last layer
