@@ -97,3 +97,7 @@ https://stackoverflow.com/questions/54414392/convert-sklearn-svm-svc-classifier-
 ## Attempt 2
 - further tunings
 - `loss: 0.0079 - accuracy: 0.9977 - val_loss: 0.0702 - val_accuracy: 0.9784`
+
+## Attempt 3
+- with 16 dense layer
+- `loss: 0.0417 - accuracy: 0.9990 - val_loss: 0.1252 - val_accuracy: 0.9654`
