@@ -94,3 +94,7 @@ high training loss
 ## Attempt 2
 - with fine tuning from layer 335, without regularisation
 - `loss: 0.8153 - accuracy: 0.9801 - val_loss: 0.6137 - val_accuracy: 0.9610`
+
+## Attempt 3
+- start training at 335 conv5_block3_1
+- `loss: 1.5326 - accuracy: 0.9667 - val_loss: 1.3124 - val_accuracy: 0.9610`
