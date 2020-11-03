@@ -93,3 +93,7 @@ https://stackoverflow.com/questions/54414392/convert-sklearn-svm-svc-classifier-
 
 ## Attempt 1
 - first try with SVM as last layer
+
+## Attempt 2
+- further tunings
+- `loss: 0.0079 - accuracy: 0.9977 - val_loss: 0.0702 - val_accuracy: 0.9784`
